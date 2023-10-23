@@ -1,0 +1,2373 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    max-width: 1350px;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.mian{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:row;
+    border: 1px solid rgba(0, 0, 0, 0.301);
+    background-color: gainsboro;
+    width: 1350px;
+    gap: 50px;
+    position:fixed;
+    margin-top: -670px;
+}
+.mian a{
+    text-decoration: none;
+    color: black;
+}
+.nav-div{
+    display: flex;
+    margin-left: -170px;
+}
+.nav-div .log img{
+    max-width: 70px;
+    max-height: 70px;
+    border-radius: 60px;
+}
+.nav-div p{
+    margin-top: 70px;
+    margin-left: -80px;
+}
+.notification{
+    display: flex;
+    gap: 50px;
+    margin-left: 40px;
+}
+.nav-2{
+    margin-right: -1250px;
+    margin-top: 140px;
+}
+.nav-2 a{
+    text-decoration: none;
+    color: black;
+}
+.nav-2 .border{
+    border: 1px solid rgba(0, 0, 0, 0.096);
+    background-color: white;
+    border-radius: 50px;
+    width: 100px;
+    height: 620px;
+}
+.border .first{
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+    margin-left: 40px;
+}
+.border .mes{
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+    margin-left: 30px;
+    margin-top: -550px;
+}
+.introduction{
+    margin-left: 120px;
+    width: 1000px;
+    height: 620px;
+    border: 2px solid rgba(0, 0, 0, 0.13);
+    display: flex;
+    background-image:url(./assets/images/back.jpg);
+    margin-top: -600px;
+}
+.profile{
+    text-wrap: nowrap;
+    margin-left: 140px;
+    margin-top: 40px;
+}
+.profile .pro{
+    margin-left: -130px;
+}
+.pro span{
+    max-height:100px;
+    max-width: 100px;
+}
+.profile .p8{
+    margin-left:-108px;
+}
+.profile .p8 a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.363);
+
+}
+.int-m{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    margin-left:-60px;
+    margin-top: -30px;
+    font-size: 50px;
+    color: red;
+}
+.int-m p span{
+    font-size: 30px;
+}
+.int-m p a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    text-decoration: none;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 10px;
+    width: 90px;
+    margin-left: 200px;
+    font-size: 20px;
+    text-wrap: nowrap;
+}
+.section2{
+    margin-left: 120px;
+    width: 1000px;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:black ;
+    background-size: cover;
+}
+.section2 .image{
+   margin-top: -800px;
+}
+.image img{
+    max-width: 500px;
+    max-height: 500px;
+}
+.section-two{
+    width: 1000px;
+    height: 2940px;
+    background-image: url(./assets/images/white2.jpg);
+    border: 1px solid red;
+    margin-left: 120px;
+}
+.white{
+    width: 750px;
+    height: 600px;
+    background-image: url(./assets/images/whitee.jpg);
+    margin-left: 140px;
+    margin-top: -600px;
+}
+.media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.one nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: end;
+    width: 750px;
+    background-color: gray;
+}
+nav ul li{
+    margin-left: 50px;
+    list-style: none;
+    font-size: 9px;
+}
+.one nav ul li img{
+    max-width: 10px;
+    max-height: 10px;
+}
+.two nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 750px;
+    background-color: white;
+}
+.two nav ul li{
+    color: black;
+    font-size: 12px;
+}
+nav ul .logoo{
+    margin-left: -80px;
+}
+.two nav ul li img{
+    max-width: 40px;
+    max-height: 40px;
+    border-radius: 60px;
+}
+nav ul .news{
+    border: 4px solid red;
+    width: 80px;
+    height: 40px;
+}
+nav ul .news span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hello{
+    display: flex;
+    margin-top: 90px;
+    margin-left: 70px;
+    color: red;
+}
+.hello p span{
+    font-size: 20px;
+    color: red;
+    text-wrap: nowrap;
+    text-transform: lowercase
+}
+.hello .pp{
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.apre{
+    display: flex;
+    margin-top: 60px;
+    margin-left: 70px ;
+}
+.appreciation{
+    border: 2px solid rgba(128, 128, 128, 0.445);
+    background-color: white;
+}
+.location{
+    margin-top: 80px;
+    margin-left: 70px;
+}
+.black{
+    display: flex;
+    width: 750px;
+    height: 400px;
+    background-image: url(./assets/images/black1.jpg);
+    margin-left: 140px;
+    color: white;
+}
+.head .hea{
+    margin-left: 300px;
+    margin-top: 60px;
+    font-size: 20px
+}
+.hea p{
+    border: 1px solid red;
+    width: 50px;
+    margin-top: 5px;
+    margin-left: 40px;
+}
+.programss{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    gap: 4px;
+    
+}
+.program .pr01{
+    background-color: rgba(128, 128, 128, 0.438);
+}
+.pr01 .lect{
+    height: 160px;
+}
+.pr01 .lect img{
+    max-width: 20px;
+    max-height: 20px;
+}
+.lect img{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.lect h1{
+    color: red;
+    font-size: 15px;
+    margin-top: 6px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+    span .pr01{
+    border: 3px solid white;
+    margin-top: -3px;
+    height: 158px;
+}
+.seee{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-wrap: nowrap;
+}
+.seee .see{
+    margin-top: 300px;
+    margin-left: -800px;
+}
+.see p{
+    border: 1px solid rgba(255, 255, 255, 0.527);
+}
+.white2{
+    width: 750px;
+    height: 700px;
+    display: flex;
+    background-color: white;
+    margin-left: 140px;
+    font-size: 10px;
+}
+.white2 .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content .heat{
+    margin-top: -500px;
+    margin-left: 300px;
+    text-wrap: nowrap;
+    font-size: 30px;
+}
+.heat p{
+    border: 1px solid red;
+    width: 40px;
+    margin-left: 80px;
+}
+.content .img2{
+    margin-left: -460px;
+}
+.img2 .imges img{
+    max-width: 100px;
+    max-height: 120px;
+}
+.img1 .imgess img{
+    max-width: 100px;
+    max-height: 120px;
+} 
+.img2 .imges {
+     display: flex;
+     flex-direction: column;
+     gap: 40px;
+     margin-top: 90px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+    margin-top: 100px;
+}
+.name h3{
+    font-size: 22px;
+}
+.name .red{
+    color: red;
+}
+.img1 .imgess{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 90px;
+}
+.textt{
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+    margin-top: 100px;
+}
+.namee h4{
+    font-size: 22px;
+}
+.namee .redd{
+    color: red;
+}
+.black2{
+    display: flex;
+    width: 750px ;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.712);
+    margin-left: 140px;
+}
+.part h5{
+    display: flex;
+    margin-top: -80px;
+    margin-left: 350px;
+    font-size: 30px;
+}
+.pa p{
+    border: 1px solid rgba(255, 0, 0, 0.322);
+    width: 20px;
+    margin-top: -40px;
+    margin-left: -60px;
+}
+.black2 .partner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.moz .mozi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 40px;
+    margin-left: -350px;
+    color: gray;
+    font-size: 20px;
+}
+.mozi .moxil{
+    font-size: 30px;
+}
+.mozi .nave{
+    font-size: 30px;
+}
+.white3{
+    display: flex;
+    width: 750px;
+    height: 200px;
+    background-color: white;
+    margin-left: 140px;
+}
+.white3 .parr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-left: 50px;
+}
+.org img{
+    max-width: 30px;
+    max-height: 30px;
+    border-radius: 60px;
+}
+.org p{
+    margin-left: 30px;
+    margin-top: -40px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.orgg{
+    color: rgba(0, 0, 0, 0.541);
+}
+.all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 100px;
+    margin-top: 100px;
+}
+.color{
+    margin-top: 80px;
+    margin-left: 130px;
+}
+.color .col{
+    margin-top: -50px;
+    margin-bottom: 50px;
+}
+.color .col p{
+    border: 1px solid red;
+    width: 30px;
+}
+.color .swatch{
+    display: flex;
+    margin-left: -30px;
+    gap: 40px;
+}
+.color .swatch img{
+    max-width: 70px;
+    max-height: 70px;
+    border-radius: 60px;
+}
+.swatch li{
+    list-style: none;
+}
+.graphy .iconoo{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 60px;
+    margin-right: 90px;
+    gap: 30px;
+}
+.graphy .icono{
+    margin-left: 60px;
+}
+.icono p{
+    border: 1px solid red;
+    width: 30px;
+}
+.graphy .iconoo img{
+    max-width: 70px;
+    max-height: 70px;
+    border-radius: 50px;
+}
+.iconoo li{
+    list-style: none;
+}
+.font-size{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+.fon .font-family{
+    display: flex;
+    flex-direction: column;
+    margin-left: -20px;
+}
+.font-family .font{
+    margin-top: -80px;
+    margin-bottom: 60px;
+    font-size: 30px;
+}
+.font p{
+    border: 1px solid red;
+    width: 40px;
+}
+.fon .coco{
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: gray;
+}
+.fon .lato{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 400px;
+    margin-top: -130px;
+}
+.lato .lat{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 30px;
+    margin-left: -320px;
+    color: gray;
+}
+.lato .lat-com{
+    margin-top: -25px;
+}
+.love-life{
+    margin-top: 100px;
+    margin-left: 60px;
+    display: flex;
+}
+.love-life .love-all{
+    display: flex;
+    flex-direction: column;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    font-size: 30px;
+    text-wrap: nowrap;
+    color: rgba(128, 128, 128, 0.411);
+}
+.cameroon{
+    width: 750px;
+    height: 500px;
+    background-image: url(./assets/images/whitee.jpg);
+    margin-top: -700px;
+    margin-left: 250px;
+    border: 1px solid white;
+}
+.cameroon .camerr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+.img11 .uf{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    background-image: linear-gradient(black,gray);
+    width: 750px;
+    height: 20px;
+    margin-top: -80px;
+    margin-left:;
+    color: white;
+}
+.img11 .uf img{
+    max-width: 10px;
+    max-height: 10px;
+}
+.uf li{
+    display: flex;
+    margin-left: 100px;
+    gap: 2px;
+}
+.imglog .ud img{
+    max-width: 20px;
+    max-height: 20px;
+}
+.imglog .ud{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -750px;
+    margin-top: -60px;
+    width: 750px;
+    height: 40px;   
+    background-color: white;
+}
+.ud span{
+    color: red;
+}
+.ud .spann{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+    width: 60px;
+    height: 30px;
+}
+.harsh{
+    display: flex;
+    color: rgba(128, 128, 128, 0.699);
+    margin-left: 580px;
+    margin-top: 30px;
+}
+.harsh h6{
+    color: red;
+    margin-top: 3px;
+}
+.common{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: orangered;
+    margin-top: 80px;
+    font-size: 40px;
+}
+.explain{
+    border: 2px solid white;
+    width: 550px;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 100px;
+    margin-top: 30px;
+    color: rgba(0, 0, 0, 0.37);
+}
+.contactt-us{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 200px;
+    color: rgba(0, 0, 0, 0.486);
+}
+.contactt-us span{
+    display: flex;
+    margin-top: 20px;
+    margin-left: -250px;
+    text-decoration: underline;
+}
+.commite{
+    display: flex;
+    width: 750px;
+    height: 194px;
+    background-color: white;
+    margin-left: 250px;
+}
+.picturee img{
+    max-width: 40px;
+    max-height: 40px;
+    border-radius: 60px;
+}
+.commite .fin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -130px ;
+    margin-left: 150px;
+    font-size: 25px;
+    text-wrap: nowrap;
+}
+.commite .decided{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 70px;
+    text-wrap: nowrap;
+    margin-top: 60px;
+    margin-left: -400px;
+    color: rgba(0, 0, 0, 0.39);
+}
+.commite .picturee{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-wrap: nowrap;
+    margin-top: 140px;
+    margin-left: -400px;
+    border: 3px solid gray;
+    background-color: white;
+    font-size: 20px;
+}
+.picturee span{
+    margin-top: 25px;
+    margin-left: -10px;
+}
+.I-2023{
+    display: flex;
+    width: 1000px;
+    height: 2000PX;
+    background-color: orangered;
+    margin-left:120px;
+}
+.I-2023 .upright{
+       display: flex;
+       flex-direction: column;
+       writing-mode: vertical-lr;
+       text-transform: upright;
+       margin-top: 200PX;
+       margin-left: 50px;
+       font-size: 30px;
+       color: rgba(128, 128, 128, 0.562);
+}
+.upright .zero{
+    display: flex;
+    margin-top: -100px;
+    font-size: 170px;
+}
+.upright .mann{
+    margin-right: -30px;
+}
+.minus{
+    height: 350px;
+    width: 750px;
+    margin-left: -65px;
+    border: 1px solid rgba(128, 128, 128, 0.452);
+    background-color: white;
+}
+.minus .clas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 7px;
+    margin-top: 40px;
+    margin-left: 200px;
+}
+.clas .picc{
+    margin-left: -60px;
+    font-size: 20px;
+}
+.clas span{
+    margin-top: 70px;
+    margin-left: -270px;
+    font-size: 10px;
+}
+.two-pic{
+    display: flex;
+    margin-top: 60px;
+    margin-left: 190px;
+    gap: 20px;
+}
+.pic-1 .parrr{
+    display: flex;
+    text-wrap: nowrap;
+    color: white;
+    margin-top: -50px;
+}
+.parrr .numm{
+    margin-top: -30px;
+    font-size: 30px;
+}
+.last{
+    width: 750px;
+    height: 200px;
+    display: flex;
+    margin-top: -1660px;
+    background-color: black;
+    color: white;
+    margin-left: 370px;
+}
+.last .carry{
+    display: flex;
+    margin-top: 80px;
+    margin-left: 140px;
+    gap: 100px;
+}
+.emm img{
+    max-width: 40px;
+    max-height: 40px;
+    border: 1px solid white;
+    border-radius: 50px;
+}
+.emm h5{
+    margin-top: -30px;
+    margin-left: 50px;
+}
+.emm span{
+    margin-left: 50px;
+}
+.fle{
+    color: rgba(255, 255, 255, 0.39);
+}
+.fle h6{
+    margin-bottom: 20px;
+}
+.cat{
+    width: 750px;
+    height: 600px;
+    border: 1px solid rgba(128, 128, 128, 0.425);
+    background-color: white;
+    margin-left: 120px;
+    margin-top: 130px;
+}
+.navvii{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.navd .ugg{
+    display: flex;
+    background-color: black;
+    color: white;
+    width: 750px;
+    margin-top: -32px;
+    height: 20px;
+}
+.ugg img{
+    max-width: 10px;
+    max-height: 10px;
+}
+.ugg li{
+    margin-left: 100px;
+    margin-top: 7px;
+}
+.nagg .uyy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-wrap: nowrap;
+    background-color: white;
+    border: 1px solid rgba(128, 128, 128, 0.486);
+    height: 40px;
+    width: 750px;
+    margin-top: -20px;
+}
+.uyy img{
+    max-width: 20px;
+    max-height: 20px;
+}
+.uyy span{
+    color: red;
+}
+.pix li{
+    border: 2px solid red;
+    width: 70px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.ti{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 400px;
+    margin-top: 30px;
+    color: rgba(0, 0, 0, 0.534);
+}
+.gg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+.gg p{
+    border: 1px solid red;
+    width: 20px;
+    margin-top: 20px;
+    margin-left: -45px;
+}
+.hh{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+.hh .hhh{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 1px solid rgba(128, 128, 128, 0.493);
+    width: 400px;
+    height: 30px;
+    border-radius: 30px;
+}
+.hhh span{
+    margin-left: -40px;
+    color: red;
+}
+.excel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.excel .shadow{
+    border: 1px solid gray;
+    box-shadow: 0px 0px 20px 0px;
+}
+.shad{
+    width: 750px;
+    height: 730px;
+    border: 1px solid rgba(128, 128, 128, 0.438);
+    background-color: white;
+    margin-left: 120px;
+}
+.shape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+}
+.shape img{
+    max-width: 40px;
+    max-height: 40px;
+}
+.one-to{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: -40px;
+}
+.one-to p{
+    border: 1px solid red;
+    width: 20px;
+    margin-top: 30px;
+    margin-left: -80px;
+}
+.selll{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-wrap: nowrap;
+    margin-top: 40px;
+}
+.selll .seli{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(128, 128, 128, 0.418);
+    background-color: white;
+    border-radius: 20px;
+    width: 350px;
+    text-wrap: nowrap;
+    height: 30px;
+    color: rgba(0, 0, 0, 0.541);
+}
+.selll span{
+    color: red;
+}
+.seli p{
+    margin-left: 10px;
+}
+.tist{
+    display: flex;
+}
+.tist .empt{
+    border: 1px solid rgba(128, 128, 128, 0.158);
+    background-color: rgba(128, 128, 128, 0.11);
+    width: 180px;
+    height: 30px;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+.tist .cc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+    margin-left: -180px;
+    margin-top: 70px;
+    background-color: white;
+    border: 1px solid rgba(128, 128, 128, 0.274);
+    width: 180px;
+    height: 60px;
+}
+.cc li{
+    display: flex;
+    list-style: none;
+    margin-left: 40px;
+}
+.tisu .empty{
+    border: 1px solid rgba(128, 128, 128, 0.123);
+    width: 350px;
+    height: 30px;
+    background-color: rgba(128, 128, 128, 0.144);
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.tisu .ee{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 1px solid rgba(128, 128, 128, 0.164);
+    width: 350px;
+    height: 60px;
+    margin-left: 100px;
+}
+.ee li{
+    list-style: none;
+    margin-left: -130px;
+}
+.la{
+    display: flex;
+}
+.la button{
+    background-color: orangered;
+    width: 50px;
+    height: 30px;
+    margin-left: 230px;
+    border: 1px solid orangered;
+    margin-top: 40px;
+}
+.back{
+    width: 1000px;
+    height: 2300px;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.171);
+    margin-left: 120px;
+}
+.back .biggi{
+    writing-mode: vertical-lr;
+    text-transform: upright;
+    font-size: 60px;
+    margin-top: 100px;
+    margin-left: 100px;
+    color: rgba(0, 0, 0, 0.274);
+}
+.biggi span{
+    font-size: 180px;
+}
+.je{
+    width: 720px;
+    height: 1000px;
+    border: 1px solid rgba(128, 128, 128, 0.178);
+    background-color:white;
+    margin-left: 400px;
+    margin-top: -2880px;
+}
+.je .mm{
+    display: flex;
+    margin-top: 60px;
+}
+.ww .zz{
+    display: flex;
+    border: 1px solid gray;
+    width: 720px;
+    height: 20px;
+    background-color: rgba(0, 0, 0, 0.514);
+    color: white;
+    margin-top: -88px;
+}
+.zz img{
+    max-width: 10px;
+    max-height: 10px;
+}
+.zz li{
+    display: flex;
+    margin-left: 100px;
+}
+.vv .oo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(128, 128, 128, 0.363);
+    width: 720px;
+    height: 50px;
+    background-color: white;
+    margin-left: -720px;
+    margin-top: -50px;
+}
+.oo span{
+    color: red;
+}
+.oo .aa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+    width: 80px;
+    height: 30px;
+    text-wrap: nowrap;
+    margin-left: 20px;
+}
+.aa li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -30px;
+}
+.oo img{
+    max-width: 20px;
+    max-height: 20px;
+    border-radius: 50px;
+}
+.fz{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -920px;
+    margin-left: 650px;
+    color: rgba(0, 0, 0, 0.404);
+}
+.sa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 130px;
+    font-size: 30px;
+}
+.sa p{
+    border: 1px solid red;
+    width: 20px;
+    margin-top: 30px;
+    margin-left: -60px;
+}
+.cx{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 150px;
+    gap: 5px;
+}
+.zd .zda{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid orangered;
+    background-color: orangered;
+    height: 40px;
+    color: white;
+    width: 150px;
+}
+.df .dfr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.055);
+    width: 150px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.041);
+}
+.throughh p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.123);
+    width: 600px;
+    margin-top: 30px;
+    margin-left: 500px;
+}
+.wor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.wor .sharq{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 450px;
+    color: red;
+}
+.shax .qwe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 110px;
+    margin-top: -20px;
+    border: 1px solid rgba(128, 128, 128, 0.171);
+    background-color: white;
+    border-radius: 20px;
+    width: 250px;
+    height: 30px;
+    word-spacing: 6px;
+    color: rgba(0, 0, 0, 0.658);
+}
+.term{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px ;
+    margin-left: 100px;
+    font-size: 20px;
+}
+.meani{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 8px;
+    margin-top: 5px;
+    margin-left: 90px;
+}
+.meani p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: -900px;
+}
+.sddd{
+    display: flex;
+    font-size: 8px;
+    margin-left: 600px;
+}
+.throug{
+    display: flex;
+    border: 1px solid rgba(0, 0, 0, 0.123);
+    width: 600px;
+    margin-top: 40px;
+    margin-left: 500px;
+}
+.tgv .asd{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 860px;
+}
+.asd .anno{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.212);
+    background-color: white;
+    width: 240px;
+    height: 30px;
+    gap: 10px;
+}
+.anno li{
+    list-style: none;
+}
+.res{
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.103);
+    width: 600px;
+    height: 300px;
+    margin-left: 500px;
+    margin-top: 30px;
+}
+.reg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.bix{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    margin-left: 200px;
+}
+.bix .vg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid orangered;
+    background-color: orangered;
+    height: 50px;
+    width: 200px;
+    font-size: 10px;
+    color: white;
+}
+.myt{
+    border: 1px solid black;
+    width: 720px;
+    height: 200px;
+    margin-left: 400px;
+    margin-top: 63px;
+    background-color: rgba(0, 0, 0, 0.719);
+}
+.myt .lop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    margin-left: -20px;
+    gap: 20px;
+    color: rgba(255, 255, 255, 0.555);
+}
+.uyi img{
+    max-width: 30px;
+    max-height: 30px;
+    border-radius: 50px;
+}
+.lop .uyi{
+    text-wrap: nowrap;
+}
+.uyi span{
+    display: flex;
+    margin-top: 4px;
+    margin-left: 20px;
+}
+.lop .nji{
+    display: flex;
+    text-wrap: nowrap;
+    margin-top: -70px;
+    margin-left: 80px;
+}
+.lop .nju{
+    display: flex;
+    margin-left: -400px;
+    margin-top: 50px;
+}
+.lop .nju1{
+    display: flex;
+    margin-left: -400px;
+}
+.longg{
+    display: flex;
+    border: 1px solid rgba(0, 0, 0, 0.116);
+    width: 400px;
+    height: 600px;
+    margin-left: 180px;
+    margin-top: 140px;
+    background-color: white;
+    box-shadow: 0px 0px 10px 0px;
+}
+.haam p{
+    display: flex;
+    border: 3px solid rgba(0, 0, 0, 0.466);
+    width: 30px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.haae p{
+    display: flex;
+    border: 3px solid rgba(0, 0, 0, 0.466);
+    width: 30px;
+    margin-top: 40px;
+    margin-left: -30px;
+}
+.haa p{
+    display: flex;
+    border: 3px solid rgba(0, 0, 0, 0.541);
+    width: 30px;
+    margin-top: 50px;
+    margin-left: -30px;
+}
+.longg .hout{
+    display: flex;
+    margin-top: 120px;
+    margin-left: -30px;
+    font-size: 25px;
+    color: red;
+    text-wrap: nowrap;
+}
+.longg .cvb{
+    display: flex;
+    margin-top:160px ;
+    font-size: 50px;
+    text-wrap: nowrap;
+    margin-left: -200px;
+    color: red;
+}
+.joyf .celee{
+    display: flex;
+    border: 1px solid rgba(128, 128, 128, 0.233);
+    background-color: white;
+    width: 300px;
+    margin-top: 340px;
+    margin-left: -300px;
+}
+.set22{
+    display: flex;
+    border: 1px solid rgba(0, 0, 0, 0.116);
+    width: 400px;
+    height: 600px;
+    box-shadow: 0px 0px 10px 0px;  
+    margin-left: 650px; 
+    margin-top: -600px;
+}
+.hats p{
+    display: flex;
+    border: 3px solid rgba(0, 0, 0, 0.479);
+    width: 30px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.hag p{
+    display: flex;
+    border: 3px solid rgba(0, 0, 0, 0.493);
+    width: 30px;
+    margin-top: 40px;
+    margin-left: -30px;
+}
+.hay p{
+    display: flex;
+    border: 3px solid rgba(0, 0, 0, 0.507);
+    width: 30px;
+    margin-top: 50px;
+    margin-left: -30px;
+}
+.pln{
+    display: flex;
+    margin-top: -40px;
+}
+.set22 .cret{
+    display: flex;
+    margin-top: 130px;
+    color: red;
+    font-size: 25px;
+    text-wrap: nowrap;
+}
+.set22 .sxc{
+    margin-top: 180px;
+    margin-left: -220px;
+    font-size: 50px;
+    color: red;
+}
+.bggg{
+    margin-top: -160px;
+    color: rgba(0, 0, 0, 0.726);
+    font-size: 30px;
+    margin-left: 200px;
+}
+.mbxx{
+    margin-left: 200px;
+    color: rgba(0, 0, 0, 0.568);
+}
+.zdtu .boi{
+    width: 300px;
+    border: 1px solid rgba(0, 0, 0, 0.116);
+    background-color: white;
+    margin-left: 700px;
+    margin-top: -160px;
+}
+.btds{
+    display: flex;
+    flex-direction: column;
+    margin-left: 700px;
+    margin-top: 20px;
+    color: rgba(0, 0, 0, 0.568);
+}
+.btds .okg{
+    margin-left: 70px;
+}
+.btds .psi{
+    margin-left: 50px;
+    color: rgba(0, 0, 0, 0.815);
+}
+.psi p{
+    border: 1px solid black;
+    width: 180px;
+}
+.lon-blac{
+    display: flex;
+    width: 400px;
+    height: 800px;
+    margin-left: 180px;
+    margin-top: 60px;
+    background-color: black;
+}
+
+.lon-blac .kotd{
+    color: white;
+    margin-top: 40px;
+    margin-left: 130px;
+    font-size: 25px;
+}
+.kotd p{
+    display: flex;
+    width: 30px;
+    border: 1px solid rgba(255, 0, 0, 0.521);
+    margin-left: 50px;
+    margin-top: 15px;
+}
+.two-22{
+    display: flex;
+    width: 360px;
+    margin-left: 200px;
+    margin-top: -690px;
+    color: white;
+}
+.two-22 .qqqq{
+    display: flex;
+    justify-content: center;
+    margin-top: -150px;
+    gap: 10px;
+    flex-direction: column;
+}
+.qqqq .two-two{
+    display: flex;
+    border: 1px solid rgba(255, 255, 255, 0.219);
+    width: 360px;
+    height: 80px;
+    background-color: rgba(128, 128, 128, 0.384);
+    justify-content: center;
+    align-items: center;
+}
+.two-three img{
+    display: flex;
+    max-width: 30px;
+    max-height: 30px;
+    margin-top: 30px;
+
+}
+.two-three h4{
+    color: red;
+    margin-left: 60px; 
+    margin-top: -50px;
+}
+.two-three span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-left: 150px;
+    margin-top: -30px;
+}
+.jltg .bqwf{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid orangered;
+    width: 250px;
+    height: 50px;
+    text-wrap: nowrap;
+    margin-top: 550px;
+    margin-left: -300px;
+    background-color: orangered;
+    font-size: 17px;
+}
+.gopll{
+    border: 1px solid rgba(0, 0, 0, 0.199);
+    width: 400px;
+    height: 1300px;
+    background-color: white;
+    margin-left: 650px;
+    margin-top: -760px;
+}
+.gopll .ikmf{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 30px;
+}
+.gopll .qys{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 74px;
+    font-size: 25px;
+    text-wrap: nowrap;
+}
+.gopll .aue{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 40px;
+    color: rgba(0, 0, 0, 0.623);
+}
+.paagt{
+    margin-top: -1100px;
+    margin-left: 700px;
+}
+.paagt .loglo{
+    border: 1px solid rgba(128, 128, 128, 0.247);
+    background-color: white;
+    width: 300px;
+    height: 100px;
+}
+.locvg img{
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 50px;
+}
+.loglo .csti{
+    display: flex;
+    margin-left: 60px;
+    margin-top: -50px;
+    font-size: 30px;
+    text-wrap: nowrap;
+}
+.csti span{
+    display: flex;
+    margin-top: 20px;
+    margin-left: -120px;
+}
+.csti h3{
+    font-size: 9px;
+    display: flex;
+    margin-top: 50px;
+    margin-left: -150px;
+}
+.livd p{
+    border: 1px solid rgba(0, 0, 0, 0.212);
+    width: 360px;
+    margin-left: 670px;
+    margin-top: 30px;
+}
+.seenm{
+    display: flex;
+    margin-left: 690px;
+    margin-top: 20px;
+    font-size: 25px;
+}
+.tmie p{
+    border: 1px solid red;
+    width: 30px;
+    margin-left: 820px;
+}
+.takaa{
+    margin-left: 680px;
+    margin-top: 20px;
+    color: rgba(0, 0, 0, 0.507)
+}
+.takaa p{
+    margin-left: 70px;
+}
+.rowwc{
+    display: flex;
+    flex-direction: column;
+    margin-left: 750px;
+    margin-top: 70px;
+    gap: 70px;
+}
+.zxdft p{
+    color: white;
+    margin-top: -60px;
+}
+.mau{
+    display: flex;
+    margin-top: -130px;
+    color: white;
+}
+.faetu{
+    border: 1px solid rgba(0, 0, 0, 0.164);
+    background-color: white;
+    width: 400px;
+    height: 470px;
+    margin-left: 180px;
+    margin-top: 80px;
+}
+.faetu .pseak{
+    margin-top: 20px;
+    margin-left: 130px;
+    font-size: 25px;
+}
+.zdrty img{
+    max-width: 120px;
+    max-height: 120px;
+}
+.faetu .zxyiy{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    gap: 50px;
+}
+.zxyiy .idk{
+    display: flex;
+}
+.idk .aptdx{
+    margin-left: 20px;
+    margin-top:;
+}
+.aptdx{
+    font-size: 25px;
+}
+.aptdx .ztdac{
+    display: flex;
+    color: red;
+    font-size: 15px;
+    margin-top: 20px;
+}
+.aptdx .qpfd{
+    font-size: 15px;
+}
+.moreee .moreeee{
+    border: 1px solid rgba(0, 0, 0, 0.384);
+    background-color: white;
+    width: 370px;
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.moreeee p span{
+    writing-mode: vertical-lr;
+    text-transform: upright;
+    color:  red;
+}
+.iama{
+    border: 1px solid rgba(0, 0, 0, 0.308);
+    width: 400px;
+    height: 300px;
+    margin-top: -400px;
+    margin-left: 650px;
+    background-color: rgba(0, 0, 0, 0.726);
+}
+.iama .iled{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.iled .chilfg{
+    font-size: 30px;
+}
+.pch p{
+  border: 1px solid red;
+  width: 20px;  
+}
+.iled .all-three{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    gap: 40px;
+}
+.all-three .nalova{
+    color: rgba(128, 128, 128, 0.781);
+    font-size: 40px;
+}
+.all-three .ovana{
+    color: rgba(128, 128, 128, 0.589);
+    font-size: 25px;
+}
+.all-three .naova{
+    color: gray;
+    font-size: 30px;
+}
+.iama .asktq{
+    display: flex;
+    margin-top: 30px;
+    gap: 30px;
+}
+.asktq .dtogg{
+    color: rgba(128, 128, 128, 0.747);
+    font-size: 22px;
+    margin-left: -20px;
+}
+.asktq .hubai{
+    color: gray;
+    font-size: 20px;
+}
+.bgzq .latsb{
+    width: 400px;
+    height: 100px;
+    border: 1px solid rgba(0, 0, 0, 0.219);
+    background-color: white;
+    margin-left: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.apdgt img{
+    max-width: 30px;
+    max-height: 30px;
+    border-radius: 50px;
+}
+.llogo{
+    margin-top: -10px;
+    font-size: 25px;
+    text-wrap: nowrap;
+}
+.bcz span{
+    display: flex;
+    margin-top: 0px;
+}
+.aptdg .zits{
+    color: rgba(0, 0, 0, 0.589);
+}
+.rollover .poacg{
+    border: 1px solid black;
+    background-color: black;
+    width: 1040px;
+    height: 300px;
+    margin-left: 100px;
+    margin-top: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.likhn img{
+    max-width: 80px;
+    max-height: 80px;
+    border-radius: 50px;
+}
+.likhy img{
+    max-width: 20px;
+    max-height: 20px;
+    border-radius: 50px;
+}
+.mysair .likhn{
+    margin-top: -30px;
+    margin-left: 140px;
+}
+.mysair .ifgt{
+    color: white;
+    font-size: 30px;
+}
+.mysair .likhy{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 100px;
+    gap: 40px;
+}
+.mysair .moabn{
+    display: flex;
+    color: rgba(128, 128, 128, 0.795);
+    gap: 30px;
+    margin-left: 120px;
+    margin-top: -20px;
+}
+.moabn li{
+    list-style: none;
+}
+.mysair .published{
+    color: gray;
+    margin-top: 30px;
+    margin-left: 90px;
+}
+.lgjmc .cardsss{
+    border: 1px solid black;
+    background-color: rgba(0, 0, 0, 0.884);
+    width: 1040px;
+    height: 400px;
+    margin-left: 100px;
+}
+.carrss img{
+    max-width: 270px;
+    height: 270px;
+}
+.cardsss .mhgfd{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.mhgfd .ctar{
+    display: flex;
+    margin-top: -30px;
+}
+.ctar a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.cardsss .konghe{
+    border: 1px solid blue;
+    background-color: blue;
+    border-radius: 20px;
+    width: 80px;
+    height: 25px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.konghe a{
+    text-decoration: none;
+}
+.cardsss .carrss{
+    margin-top: 80px;
+}
+.mhgfd .carrss{
+    display: flex;
+    gap: 30px;
+    margin-top: -1px;
+    margin-left: ;
+}
+.final-pm{
+    border: 1px solid rgba(0, 0, 0, 0.164);
+    width: 1040px;
+    height: 2000px;
+    margin-left: 100px;
+}
+.final-pm .mp-final{
+    border: 1px solid rgba(0, 0, 0, 0.11);
+    background-color: white;
+    width: 800px;
+    height: 180px;
+    margin-left: 120px;
+    margin-top: 40px;
+}
+.facebookk img{
+    max-width: 30px;
+    max-height: 30px;
+}
+.facebo img{
+    max-width: 20px;
+    max-height: 20px;
+}
+.aclio .apdhe{
+    margin-top: 30px;
+    margin-left: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+.aclio .lpqai{
+    margin-left: 30px;
+    color: rgba(0, 0, 0, 0.534);
+    margin-top: 7px;
+}
+.aclio .shines{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 30px;
+    gap: 10px;
+}
+.shines .shinfe{
+    display: flex;
+    text-wrap: nowrap;
+}
+.shines .shixg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1ps solid blue;
+    background-color: blue;
+    border-radius: 20px;
+    font-size: 18px;
+    height: 30px;
+    width: 160px;
+}
+.shixg a{
+    text-decoration: none;
+    color: white;
+}
+.shines .paleo{
+    color: gray;
+}
+.pacue{
+    border: 1px solid rgba(0, 0, 0, 0.103);
+    width: 800px;
+    height: 900px;
+    margin-top: -1780px;
+    margin-left: 222px;
+}
+.aggit img{
+    max-width: 30px;
+    max-height: 30px;
+    border-radius: 60px;
+}
+.pacue .abtz{
+    margin-top: 20px;
+}
+.pacue .qlmax{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+.abtz .ten-10{
+    display: flex;
+}
+.qlmax .abtz{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.ten-10 .pzpat{
+    margin-left: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.pzpat span{
+    color: rgba(0, 0, 0, 0.247);
+    font-size: 13px;
+}
+.ten-10 .Whaac{
+    display: flex;
+    margin-top: 20px;
+    margin-left: -180px;
+}
+.visr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -60px;
+    margin-left: -30px;
+}
+.smi img{
+    max-width: 20px;
+    max-height: 20px;
+}
+.seemre a{
+    text-decoration: none;
+    color: blue;
+    font-size: 25px;
+}
+.seemre a:hover{
+    width: 800px;
+    height: 40px;
+    color: rgba(0, 0, 0, 0.281);
+}
+.lkaud img{
+    max-width: 20px;
+    max-height: 20px;
+}
+.gigtmi .jmplaso{
+    display: flex;
+    margin-left: 400px;
+    margin-top: 70px;
+}
+.jmplaso .mlod{
+    display: flex;
+}
+.mlod .apscuz{
+    border: 1px solid rgba(0, 0, 0, 0.164);
+    width: 400px;
+    height: 240px;
+    margin-left: -180px;
+    background-color: white;
+}
+.mlod .owners{
+    margin-left: 30px;
+    color: gray;
+    margin-top: 30px;
+    font-size: 15px;
+}
+.mlod .ugav{
+    margin-left: 30px;
+}
+.mlod .lkaud{
+    margin-left: 27px;
+}
+.lkaud a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.404);
+}
+.mlod .psvyua{
+    border: 1px solid blue;
+    background-color: blue;
+    width: 340px;
+    border-radius: 20px;
+    margin-left: 30px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mlod .alrxz{
+    border: 1px solid black;
+    background-color:rgba(135, 207, 235, 0.123);
+    border-radius: 20px;
+    width: 340px ;
+    margin-top: 20px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.jmplaso .agsys{
+    border: 1px solid rgba(0, 0, 0, 0.144);
+    background-color: white;
+    width: 390px;
+    height: 240px;
+    margin-left: 10px;
+}
+.agsys .fields{
+    color: gray;
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 13px;
+}
+.agsys .creaflt{
+    border: 1px solid rgba(0, 0, 0, 0.479);
+    background-color: rgba(0, 0, 0, 0.712);
+    width: 330px;
+    height: 30px;
+    margin-left: 30px;
+    margin-top: 20px;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+}
+.agsys .creafld{
+    border: 1px solid rgba(0, 0, 0, 0.479);
+    background-color: rgba(0, 0, 0, 0.712);
+    width: 330px;
+    height: 30px;
+    margin-left: 30px;
+    margin-top: 20px;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+}
+.agsys .creafla{
+    border: 1px solid rgba(0, 0, 0, 0.479);
+    background-color: rgba(0, 0, 0, 0.712);
+    width: 330px;
+    height: 30px;
+    margin-left: 30px;
+    margin-top: 20px;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+}
+.gmrq .amkzzxy{
+    display: flex;
+    margin-top: 200px;
+    margin-left: -200px;
+} 
+.buel img{
+    max-width: 20px;
+    max-height: 20px;
+    border-radius: 50px;
+}
+.buel a{
+    text-decoration: none;
+}
+.tamxksu img{
+    max-width: 20px;
+    max-height: 20px;
+    border-radius: 50px;
+}
+.tamxksu a{
+    text-decoration: none;
+    color: blue;
+}
+.livme img{
+    max-width: 20px;
+    max-height: 20px;
+}
+.amkzzxy .chesa{
+    border: 1px solid rgba(0, 0, 0, 0.144);
+    width: 400px;
+    height: 240px;
+    background-color: white;
+    margin-top: 70px;
+    margin-left: -600px;
+}
+.chesa .llogmsi{
+    margin-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 30px;
+}
+.chesa .gohlme{
+    margin-top: 15px;
+    margin-left: 30px;
+}
+.gohlme a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.404);
+}
+.chesa .pdfghi{
+    display: flex;
+    margin-left: 30px;
+    gap: 40px;
+    margin-top: 40px;
+}
+.chesa .seventeen{
+    display: flex;
+    margin-left: 55px;
+    gap: 30px;
+    margin-top: -22px;
+}
+.chesa .zjaarn{
+    margin-left: 30px;
+    margin-top: 30px;
+    color: rgba(0, 0, 0, 0.418);
+}
+.amkzzxy .kauxb{
+    display: flex;
+    border: 1px solid rgba(0, 0, 0, 0.301);
+    background-color: white;
+    width: 390px;
+    height: 240px;
+    margin-top: 70px;
+    margin-left: 10px;
+}
+.kauxb .zpagfrrf{
+    display: flex;
+    flex-direction: column;
+}
+.xrsd .dais{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+.dais .oivxc{
+    border: 1px solid rgba(0, 0, 0, 0.295);
+    background-color: white;
+    border-radius: 20px;
+    width: 60px;
+    height: 30px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dais .makrs{
+    border: 1px solid rgba(0, 0, 0, 0.205);
+    background-color: white;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dbshq .qwzx{
+    display: flex;
+    margin-top: 20px;
+}
+.qwzx .sxe{
+    border: 1px solid rgba(0, 0, 0, 0.267);
+    border-radius: 20px;
+    background-color: white;
+    width: 70px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+}
+.qwzx .pzrcm{
+    border: 1px solid rgba(0, 0, 0, 0.267);
+    border-radius: 20px;
+    background-color: white;
+    width: 110px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+.patternr .areds{
+    display: flex;
+}
+.areds .kaybxh{
+    border: 1px solid rgba(0, 0, 0, 0.267);
+    border-radius: 20px;
+    background-color: white;
+    width: 120px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.areds .zkdxkg{
+    border: 1px solid rgba(0, 0, 0, 0.267);
+    border-radius: 20px;
+    background-color: white;
+    width: 80px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.areds .vghstj{
+    border: 1px solid rgba(0, 0, 0, 0.267);
+    border-radius: 20px;
+    background-color: white;
+    width: 120px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.alkjhg .apdbe{
+    display: flex;
+}
+.apdbe .paugh{
+    border: 1px solid rgba(0, 0, 0, 0.267);
+    border-radius: 20px;
+    background-color: white;
+    width: 80px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.apdbe  .qlzjd{
+    border: 1px solid rgba(0, 0, 0, 0.267);
+    border-radius: 20px;
+    background-color: white;
+    width: 120px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.apdbe .vmskx{
+    border: 1px solid rgba(0, 0, 0, 0.267);
+    border-radius: 20px;
+    background-color: white;
+    width: 120px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.cbad .pzjst{
+    border: 1px solid rgba(0, 0, 0, 0.267);
+    border-radius: 20px;
+    background-color: white;
+    width: 120px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.putzm img{
+    max-width: 70px;
+    max-height: 70px;
+}
+.zxtak img{
+    max-width: 30px;
+    max-height: 30px;
+}
+.contssse .ropzf{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+.reporttt img{
+    max-width: 30px;
+    max-height: 30px;
+    border-radius: 50px;
+}
+.ropzf .reporttt{
+    margin-top: 70px;
+    margin-left: 200px;
+}
+.reporttt a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.514);
+}
+.ropzf .putzm{
+    margin-left: 200px;
+}
